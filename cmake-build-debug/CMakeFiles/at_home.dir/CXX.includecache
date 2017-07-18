@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/zhi/at-home/Hero.cpp
+cstring
+-
+iostream
+-
+Hero.h
+C:/Users/zhi/at-home/Hero.h
+
+C:/Users/zhi/at-home/Hero.h
+iostream
+-
+
+C:/Users/zhi/at-home/SuperHero.cpp
+iostream
+-
+cstring
+-
+SuperHero.h
+C:/Users/zhi/at-home/SuperHero.h
+
+C:/Users/zhi/at-home/SuperHero.h
+Hero.h
+C:/Users/zhi/at-home/Hero.h
+
+C:/Users/zhi/at-home/w7_at_home.cpp
+iostream
+-
+Hero.h
+C:/Users/zhi/at-home/Hero.h
+SuperHero.h
+C:/Users/zhi/at-home/SuperHero.h
+
